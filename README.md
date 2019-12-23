@@ -13,6 +13,10 @@ d = the degree of differencing.
 q = the size of the moving average window.
 ARIMA can lead to particularly good results if applied to short time predictions 
 
+### Dataset
+
+This project uses a subset of the [Kaggle Huge Stock Market Dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
+
 ### Usage
 
 This repo requires [Python](https://www.python.org/) 3+ to run. It also requires the [Keras](https://keras.io/), [Scikit-learn](https://scikit-learn.org/stable/), [Matplotlib](https://matplotlib.org/), [Pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/) to work.
